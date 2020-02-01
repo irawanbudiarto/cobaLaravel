@@ -15,8 +15,6 @@ class MemberController extends Controller
      */
     public function index()
     {
-        $member = DB::table('member')->get();
-        dump($member);
         return view('member.index');
     }
 
